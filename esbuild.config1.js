@@ -2,7 +2,7 @@ import * as esbuild from 'esbuild';
 
 const configureEsBuild = (overrides) => {
     return esbuild.build({
-        entryPoints: ['src/index.ts','src/OneMore.js.tsx'], // Entry point of your library
+        entryPoints: ['src/index.ts','src/OneMore.js'], // Entry point of your library
         bundle: true, // Bundle all dependencies into a single output file
         outdir: 'dist', // Output file for the bundled library
         legalComments: 'none', //check for production
