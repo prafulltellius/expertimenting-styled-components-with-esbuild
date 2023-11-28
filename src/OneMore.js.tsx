@@ -27,7 +27,7 @@ const Button = styled.button`
         border: 0;
     }
 
-    /* TODO: remove isLoding consideration here when button finally stopped disabling when isLoading is also true and let the consumer set each one separately. */
+    /* TODO: remove  isLoding consideration here when button finally stopped disabling when isLoading is also true and let the consumer set each one separately. */
 
     &:disabled {
         cursor: not-allowed;
